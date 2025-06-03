@@ -1,0 +1,41 @@
+ #kvlogo{
+    margin-bottom: 3px;
+    padding: 15px;
+    background: rgba(250, 250, 250, 1);
+
+ }
+#asidebardiv {
+    position: fixed ;
+    left: 0;
+    width: 300px;
+}
+#leftdiv{
+    height: 100vh;
+    padding-left: 20px;
+    padding-top: 20px;
+    background-color: white;
+    box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.161);
+
+}
+ #leftDivUl{
+    list-style-type: none;
+    
+ }
+ #leftDivUl li{
+   border-radius: 50px 0px 0px 50px;
+    background-color: #03AEEE ;
+    padding: 10px;
+    display: flex;
+    gap: 5px ;
+    align-items: center;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    color: white;
+    height: 50px;
+ }
+
+ #leftDivUl li img {
+    background-color: rgba(226, 232, 250, 1);
+    padding: 5px;
+    border-radius: 50%;
+}

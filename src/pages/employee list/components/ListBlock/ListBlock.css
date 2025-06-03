@@ -1,0 +1,27 @@
+.list-block{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 16px;
+    border-radius: 9px 9px 9px 9px;
+    box-shadow: 0px 3px 6px 0px rgba(157, 157, 157, 0.161);
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    
+}
+
+.list-block li{
+    background-color: transparent;
+    border: none;
+    color: black;
+    width: 14%;
+    display: flex;
+    justify-content: center;
+}
+
+

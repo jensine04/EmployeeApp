@@ -1,0 +1,49 @@
+#righthalf{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+#loginbox {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+#loginbox form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#logo {
+    width: 70%;
+}
+#logo img{
+    width: 100%;
+}
+
+#trial{
+    position: relative;
+}
+
+#clear{
+    position: absolute;
+    height: 45px;
+    width: 60px;
+    right: 0;
+    background-color: transparent;
+    border: none;
+    color: rgba(139, 141, 157, 1);;
+}
+
+.inputError{
+    color: red;
+    font-size: small;
+    margin-top: -30px;
+    margin-left: 5px;
+}
+

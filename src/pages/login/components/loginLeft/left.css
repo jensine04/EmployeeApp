@@ -1,0 +1,14 @@
+#lefthalf{
+    background-color: #cfe5eb;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#circle img{
+    border-radius: 50%;
+    height: 500px;
+    width: 500px;
+}
