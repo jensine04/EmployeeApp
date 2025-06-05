@@ -71,3 +71,7 @@
 #last{
     margin: 15px;
 }
+
+#formError{
+    color: red;
+}

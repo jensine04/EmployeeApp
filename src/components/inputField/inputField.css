@@ -37,3 +37,7 @@
     font-size: 14px;
     width: 410px;
 }
+
+:disabled{
+    cursor: not-allowed;
+}

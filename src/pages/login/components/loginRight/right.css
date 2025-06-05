@@ -40,6 +40,10 @@
     color: rgba(139, 141, 157, 1);;
 }
 
+#clear:disabled{
+    opacity: 0 ;
+}
+
 .inputError{
     color: red;
     font-size: small;

@@ -29,13 +29,14 @@ const TextHeader = (props: {id:string, filter?:string, feature?:string, featureI
         {props.filter? 
           <div className='filteroption'>
               Filter By <select className='filter' onChange={(e)=> {
-                //if (e.target.value!=='All'){
+                if (e.target.value!=='All'){
                 newSearchParams.set("status",e.target.value)
+                
+                }
+                else{
+                  newSearchParams.delete("status")
+                }
                 setSearchParams(newSearchParams)
-                //}
-                // else{
-                //   searchParams.delete("status")
-                // }
               }}>
                 <option value='Status' hidden>Status</option>
                 <option value='All' >All</option>

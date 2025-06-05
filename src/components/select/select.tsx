@@ -1,7 +1,7 @@
 import React from 'react'
 import './select.css'
 
-const Select = (props: { label: string, options: string[]|number[], placeholder: string,value?:string| number, onChange?: (event: React.ChangeEvent<HTMLSelectElement>) => void} ) => {
+const Select = (props: { label: string, options: string[]|number[] | {value?:string|number, name: string}[], placeholder: string,value?:string| number, onChange?: (event: React.ChangeEvent<HTMLSelectElement>) => void} ) => {
   return (
      <>
             <label>{props.label}</label>

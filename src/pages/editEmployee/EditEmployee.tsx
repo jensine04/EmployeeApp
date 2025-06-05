@@ -113,8 +113,8 @@ const EditEmployee = () => {
       email: values.email,
       age: Number(values.age),
       role: values.role,
-      departmentId: Number(values.departmentId),
       password: values.password,
+      departmentId: Number(values.departmentId),
       employeeId: values.employeeId,
       dateOfJoining: new Date(values.dateOfJoining),
       experience: Number(values.experience),
@@ -130,7 +130,7 @@ const EditEmployee = () => {
         await editEmployee({id,payload}).unwrap();
         alert("Employee edited successfully");
         navigate("/");
-      } catch (error) {
+      } catch (error:any) {
           console.error("Error:", error);
           alert(error.data.message);
       }
@@ -182,7 +182,7 @@ const EditEmployee = () => {
                 <InputField id='createEmployeeInput' classname='Pincode' label= '' type='text' value={values.address.pincode} onChange={(e) => updateAddressField('pincode',e.target.value) }/>
             </div>
 
-            
+            <InputField id='createEmployeeInput' classname='Password' label='Password' type='password' value={values.password}  onChange={(e) => updateField('password',e.target.value) }/>
             </div>
             
 

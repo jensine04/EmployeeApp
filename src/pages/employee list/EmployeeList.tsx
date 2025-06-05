@@ -34,9 +34,9 @@ console.log('data from backend',data)
 
 
     let condition=searchParams.get("status")
-    if(condition=='All'){
-      condition=null;
-    }
+    // if(condition=='All'){
+    //   condition=null;
+    // }
    const emp= condition?
      data.filter((e) => {return e.status === condition})
     : data

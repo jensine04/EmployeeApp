@@ -15,10 +15,10 @@ import { store } from './store/store'
 
 function App() {
 
-const isLoggedIn= () =>{
-  const token= localStorage.getItem("isLoggedIn")
-  return token==="true"
-};
+// const isLoggedIn= () =>{
+//   const token= localStorage.getItem("isLoggedIn")
+//   return token==="true"
+// };
 
 const router=createBrowserRouter([
   {

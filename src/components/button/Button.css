@@ -30,3 +30,8 @@
     color: #374151;
     border: 1px solid #d1d5db;
 }
+
+#inputfields:disabled{
+    opacity: 0.6;
+    cursor: not-allowed;
+}

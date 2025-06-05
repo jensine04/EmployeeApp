@@ -125,7 +125,7 @@ const Right = () => {
                 <div><input type='checkbox' id='showPass' onChange={updateShowPassword} ref={showPasswordRef}/> <label className='showpass'> Show Password</label>  </div>
 
 
-                <Button buttonID="inputfields" name='Login' type='submit' disabled={isLoading} onChange={handleSubmit} />
+                <Button buttonID="inputfields" name='Login' type='submit' disabled={isLoading ||usernameError!="" || passwordError!="" ||username==""||password==""} onChange={handleSubmit} />
               
 
             </form>
