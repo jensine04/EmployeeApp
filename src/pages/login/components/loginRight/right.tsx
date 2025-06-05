@@ -103,7 +103,7 @@ const Right = () => {
       usernameRef.current.focus()
   },[]);
 
-  const mousepositon=useMousePosition();
+  //const mousepositon=useMousePosition();
 
   return (
     <div id="righthalf">

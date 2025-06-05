@@ -1,6 +1,5 @@
 import employeeBaseApi from "../api";
-import {type EmployeeResponse } from "./types";
-//import type { empRequest,empResponse } from "./types";
+
 
 export const employeeApi = employeeBaseApi.injectEndpoints({
     endpoints: (builder) => ({
